@@ -48,7 +48,7 @@ const SimpleLogin = ({loginRequest, authInfo}) => {
               }
             }}
           />
-          {authInfo.isLoading ? <BodyText>Loading...</BodyText> : null}
+          {authInfo.isLoading ? <BodyText>Loading Test...</BodyText> : null}
         </LoginContainer>
       </ScreenContainer>
     </>
